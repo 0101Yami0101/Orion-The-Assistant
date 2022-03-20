@@ -7,7 +7,7 @@ import webbrowser
 import os
 
 engine = pyttsx3.init('sapi5')
-voices= engine.getProperty('voices') #getting details of current voice
+voices= engine.getProperty('voices') 
 engine.setProperty('voice', voices[1].id)
 
 
